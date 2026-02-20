@@ -1,0 +1,27 @@
+.stat-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-lg);
+  padding: 18px 20px;
+  transition: var(--t-med);
+}
+
+.stat-card:hover {
+  border-color: var(--card-border-strong);
+  transform: translateY(-4px);
+}
+
+.stat-card-value {
+  font-family: var(--font);
+  font-size: var(--fs-h1);
+  font-weight: var(--fw-2);
+  color: var(--text-100);
+  margin-bottom: 6px;
+}
+
+.stat-card-label {
+  font-family: var(--font);
+  font-size: var(--fs-small);
+  font-weight: var(--fw-2);
+  color: var(--text-400);
+}

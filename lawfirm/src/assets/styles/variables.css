@@ -11,7 +11,7 @@
   --px-tablet: 48px;
   --px-mobile: 18px;
 
-  --section-y-desktop: 96px;
+  --section-y-desktop: 60px;
   --section-y-tablet: 72px;
   --section-y-mobile: 56px;
 
@@ -25,7 +25,7 @@
   --fs-h2: 28px;
   --fs-h3: 18px;
   --fs-body: 16px;
-  --fs-small: 13px;
+  --fs-small: 14px;
 
   --fw-1: 400;
   --fw-2: 700;
@@ -43,7 +43,7 @@
 
   --text-100: #f8fafc;
   --text-200: #e5e7eb;
-  --text-300: #cbd5e1;
+  --text-300: #C7CDD6;
   --text-400: #94a3b8;
   --text-500: #E6D3B0;
 

@@ -1,5 +1,5 @@
 import Navbar from "./components/layout/Navbar";
-// import Hero from "./Sections/Hero";
+import Hero from "./sections/Hero";
 // import About from "./Sections/About";
 // import VisionMission from "./Sections/VisionMission";
 // import PracticeAreas from "./Sections/PracticeAreas";
@@ -14,8 +14,8 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      {/* <Hero />
-      <About />
+      <Hero />
+      {/* <About />
       <VisionMission />
       <PracticeAreas />
       <WhyUs />
