@@ -1,0 +1,27 @@
+.practice{
+    background:linear-gradient(180deg, #0E1728 0%, #0B1220 100%);
+}
+.practice-container {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.practice-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  margin-top: 8px;
+}
+
+@media (max-width: 992px) {
+  .practice-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .practice-grid {
+    grid-template-columns: 1fr;
+  }
+}
