@@ -1,0 +1,138 @@
+@import "./variables.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-main);
+  background: var(--bg);
+  color: var(--text-200);
+  line-height: var(--lh-body);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 var(--px-desktop);
+}
+
+section {
+  padding: var(--section-y-desktop) 0;
+}
+
+h1, h2, h3, h4 {
+  color: var(--text-100);
+  font-weight: 700;
+}
+
+p {
+  color: var(--text-300);
+  font-size: var(--fs-body);
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  transition: var(--t-med);
+}
+
+.btn-primary {
+  background: var(--btn-primary-bg);
+  color: var(--btn-primary-text);
+  padding: 12px 26px;
+  border-radius: var(--radius-md);
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--btn-outline-text);
+  border: 1px solid var(--btn-outline-border);
+  padding: 12px 26px;
+  border-radius: var(--radius-md);
+}
+
+.btn-primary:hover,
+.btn-outline:hover {
+  transform: translateY(-2px);
+}
+
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  transition: var(--t-med);
+}
+
+.card:hover {
+  border-color: var(--card-border-strong);
+  transform: translateY(-4px);
+}
+
+input,
+textarea {
+  width: 100%;
+  background: var(--input-bg);
+  border: 1px solid var(--input-border);
+  border-radius: var(--radius-md);
+  padding: 12px 14px;
+  color: var(--text-200);
+  font-family: inherit;
+  outline: none;
+  transition: var(--t-fast);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--placeholder);
+}
+
+input:focus,
+textarea:focus {
+  border-color: var(--input-border-focus);
+}
+
+@media (max-width: 992px) {
+  .container {
+    padding: 0 var(--px-tablet);
+  }
+
+  section {
+    padding: var(--section-y-tablet) 0;
+  }
+
+  :root {
+    --fs-hero: 44px;
+    --fs-h1: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 0 var(--px-mobile);
+  }
+
+  section {
+    padding: var(--section-y-mobile) 0;
+  }
+
+  :root {
+    --fs-hero: 34px;
+    --fs-h1: 26px;
+    --fs-h2: 22px;
+  }
+}
