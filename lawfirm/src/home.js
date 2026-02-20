@@ -3,7 +3,7 @@ import Hero from "./sections/Hero";
 import About from "./sections/About";
 import VisionMission from "./sections/VisionMission";
 import PracticeAreas from "./sections/PracticeAreas";
-// import WhyUs from "./Sections/WhyUs";
+import WhyUs from "./sections/WhyUs";
 // import Team from "./Sections/Team";
 // import Testimonials from "./Sections/Testimonials";
 // import FAQ from "./Sections/FAQ";
@@ -18,8 +18,8 @@ const Home = () => {
       <About />
       <VisionMission />
       <PracticeAreas />
-      {/* <WhyUs />
-      <Team />
+      <WhyUs />
+      {/* <Team />
       <Testimonials />
       <FAQ />
       <Contact />

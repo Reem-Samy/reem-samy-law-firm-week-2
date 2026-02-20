@@ -1,0 +1,49 @@
+.whyus-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-lg);
+  padding: 34px 28px;
+  text-align: center;
+  transition: var(--t-med);
+  min-height: 190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.whyus-card:hover {
+  border-color: var(--card-border-strong);
+}
+
+.whyus-icon {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 18px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whyus-icon img {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
+
+.whyus-title {
+  font-family: var(--font);
+  font-size: var(--fs-sub);
+  font-weight: var(--fw-2);
+  color: var(--text-100);
+  margin-bottom: 8px;
+}
+
+.whyus-desc {
+  font-family: var(--font);
+  font-size: var(--fs-h3);
+  font-weight: var(--fw-1);
+  color: var(--text-400);
+  line-height: 1.6;
+  max-width: 280px;
+  margin: 0 auto;
+}
