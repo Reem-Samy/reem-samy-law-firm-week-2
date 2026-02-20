@@ -1,0 +1,28 @@
+.vm-card {
+  background: linear-gradient(180deg, rgba(90, 131, 194, 0.30) 0%, rgba(13, 20, 36, 0.20) 70%, rgba(13, 20, 36, 0.10) 100%);
+  border: 1px solid var(--card-border);
+  border-radius: 22px;
+  padding: 38px 34px;
+  min-height: 190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.vm-card-title {
+  font-family: var(--font);
+  font-size: var(--fs-h2);
+  font-weight: var(--fw-2);
+  color: var(--text-500);
+  margin-bottom: 12px;
+}
+
+.vm-card-text {
+  font-family: var(--font);
+  font-size: var(--fs-sub);
+  color: var(--text-400);
+  line-height: var(--lh-body);
+  max-width: 420px;
+  margin: 0 auto;
+}

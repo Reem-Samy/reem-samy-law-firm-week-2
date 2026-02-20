@@ -1,7 +1,7 @@
 import Navbar from "./components/layout/Navbar";
 import Hero from "./sections/Hero";
 import About from "./sections/About";
-// import VisionMission from "./Sections/VisionMission";
+import VisionMission from "./sections/VisionMission";
 // import PracticeAreas from "./Sections/PracticeAreas";
 // import WhyUs from "./Sections/WhyUs";
 // import Team from "./Sections/Team";
@@ -16,8 +16,8 @@ const Home = () => {
       <Navbar />
       <Hero />
       <About />
-      {/* <VisionMission />
-      <PracticeAreas />
+      <VisionMission />
+      {/* <PracticeAreas />
       <WhyUs />
       <Team />
       <Testimonials />

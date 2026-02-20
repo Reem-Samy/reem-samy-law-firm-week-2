@@ -1,0 +1,18 @@
+.vm-container {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.vm-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 26px;
+  margin-top: 10px;
+}
+
+@media (max-width: 992px) {
+  .vm-grid {
+    grid-template-columns: 1fr;
+  }
+}
