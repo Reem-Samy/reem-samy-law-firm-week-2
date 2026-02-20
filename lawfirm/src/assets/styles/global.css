@@ -26,7 +26,7 @@ a {
   width: 100%;
   max-width: var(--container);
   margin: 0 auto;
-  padding: 0 var(--px-desktop);
+  /* padding: 0 var(--px-desktop); */
 }
 
 section {
@@ -44,13 +44,14 @@ p {
 }
 
 button {
-  font-family: inherit;
+  font-family: var(--font);
   cursor: pointer;
   border: none;
   transition: var(--t-med);
 }
 
 .btn-primary {
+  font-weight: var(--fw-2);
   background: var(--btn-primary-bg);
   color: var(--btn-primary-text);
   padding: 12px 26px;
