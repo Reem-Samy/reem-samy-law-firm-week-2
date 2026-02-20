@@ -1,0 +1,14 @@
+.tag {
+  display: inline-flex;
+  align-items: center;
+  height: 32px;
+  padding: 0 16px;
+  border-radius: 999px;
+  border: 1px solid var(--btn-outline-border);
+  color: var(--brand-gold);
+  font-size: var(--fs-small);
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  background: transparent;
+  margin-bottom: 60px;
+}

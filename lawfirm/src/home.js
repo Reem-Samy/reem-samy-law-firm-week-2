@@ -1,6 +1,6 @@
 import Navbar from "./components/layout/Navbar";
 import Hero from "./sections/Hero";
-// import About from "./Sections/About";
+import About from "./sections/About";
 // import VisionMission from "./Sections/VisionMission";
 // import PracticeAreas from "./Sections/PracticeAreas";
 // import WhyUs from "./Sections/WhyUs";
@@ -15,8 +15,8 @@ const Home = () => {
     <>
       <Navbar />
       <Hero />
-      {/* <About />
-      <VisionMission />
+      <About />
+      {/* <VisionMission />
       <PracticeAreas />
       <WhyUs />
       <Team />

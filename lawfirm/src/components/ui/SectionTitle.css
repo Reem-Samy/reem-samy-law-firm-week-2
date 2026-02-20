@@ -1,0 +1,22 @@
+.section-title {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  max-width: 620px;
+}
+
+.section-title-heading {
+  font-family: var(--font);  
+  font-size: var(--fs-h1);
+  font-weight: var(--fw-2);
+  line-height: 1.2;
+  color: var(--text-100);
+  margin-bottom: 20px;
+}
+
+.section-title-subtitle {
+font-family: var(--font);  
+  font-size: var(--fs-body);
+  color: var(--text-400);
+  line-height: var(--lh-body);
+}
