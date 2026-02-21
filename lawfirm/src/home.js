@@ -8,7 +8,7 @@ import Team from "./sections/Team";
 import Testimonials from "./sections/Testimonials";
 import FAQ from "./sections/FAQ";
 import Contact from "./sections/Contact";
-// import Footer from "./components/layout/Footer";
+import Footer from "./components/layout/Footer";
 
 const Home = () => {
   return (
@@ -23,7 +23,7 @@ const Home = () => {
       <Testimonials />
       <FAQ />
       <Contact />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };

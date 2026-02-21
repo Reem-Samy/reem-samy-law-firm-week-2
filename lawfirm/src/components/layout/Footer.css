@@ -1,0 +1,61 @@
+.footer {
+  padding: 40px 0;
+  border-top: 1px solid var(--card-border);
+  background: transparent;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer-logo {
+    font-family: var(--font);
+  font-weight: var(--fw-2);
+  font-size: var(--fs-h2);
+  color: var(--brand-gold);
+  letter-spacing: 0.6px;
+}
+
+.footer-copy {
+     font-family: var(--font);
+  font-size: var(--fs-small);
+  color: var(--text-400);
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-right a {
+         font-family: var(--font);
+font-size: var(--fs-body);
+  color: var(--text-400);
+  text-decoration: none;
+  transition: var(--t-fast);
+}
+
+.footer-right a:hover {
+  color: var(--text-200);
+}
+
+.footer-right span {
+  color: var(--text-400);
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    gap: 18px;
+    text-align: center;
+  }
+}
