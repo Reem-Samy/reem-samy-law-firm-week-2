@@ -1,0 +1,18 @@
+.testimonials-container {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+  margin-top: 8px;
+}
+
+@media (max-width: 992px) {
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+}

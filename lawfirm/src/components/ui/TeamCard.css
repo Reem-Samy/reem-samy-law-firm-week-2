@@ -1,0 +1,46 @@
+.team-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 26px;
+  padding: 16px;
+  transition: var(--t-med);
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.team-image-wrapper {
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.team-image {
+  width: 100%;
+height: 405px;
+  object-fit: cover;
+  display: block;
+}
+
+.team-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.team-name {
+  font-family: var(--font);
+  font-size: var(--fs-body);
+  font-weight: var(--fw-2);
+  color: var(--text-100);
+}
+
+.team-role {
+  width: 234px;
+  font-weight: var(--fw-1);
+  font-family: var(--font);
+  font-size: var(--fs-small);
+  color: var(--text-400);
+  margin-bottom: 12px;
+}
