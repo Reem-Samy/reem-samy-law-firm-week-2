@@ -1,0 +1,43 @@
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-field.full {
+  grid-column: 1 / -1;
+}
+
+.form-label {
+  font-family: var(--font);
+  font-size: var(--fs-body);
+  color: var(--text-400);
+}
+
+
+.form-control {
+  font-family: var(--font);
+  width: 100%;
+  background: var(--input-bg);
+  border: 1px solid var(--input-border);
+  border-radius: 12px;
+  padding: 12px 14px;
+  color: var(--text-200);
+  outline: none;
+  transition: var(--t-fast);
+}
+
+.form-control:focus {
+  border-color: var(--input-border-focus);
+}
+
+.form-control::placeholder {
+  font-family: var(--font);
+  color: var(--placeholder);
+}
+
+.textarea {
+  resize: none;
+  min-height: 120px;
+
+}

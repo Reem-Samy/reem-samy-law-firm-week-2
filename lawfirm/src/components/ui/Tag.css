@@ -11,4 +11,6 @@
   text-transform: uppercase;
   background: transparent;
   margin-bottom: 30px;
+      width: 180px;
+    justify-content: center;
 }

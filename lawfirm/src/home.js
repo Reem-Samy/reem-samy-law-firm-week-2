@@ -6,8 +6,8 @@ import PracticeAreas from "./sections/PracticeAreas";
 import WhyUs from "./sections/WhyUs";
 import Team from "./sections/Team";
 import Testimonials from "./sections/Testimonials";
-// import FAQ from "./Sections/FAQ";
-// import Contact from "./Sections/Contact";
+import FAQ from "./sections/FAQ";
+import Contact from "./sections/Contact";
 // import Footer from "./components/layout/Footer";
 
 const Home = () => {
@@ -21,9 +21,9 @@ const Home = () => {
       <WhyUs />
       <Team />
       <Testimonials />
-      {/* <FAQ />
+      <FAQ />
       <Contact />
-      <Footer /> */}
+      {/* <Footer /> */}
     </>
   );
 };

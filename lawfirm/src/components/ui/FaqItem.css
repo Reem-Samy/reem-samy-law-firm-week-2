@@ -1,0 +1,25 @@
+.faq-item {
+  border: 1px solid var(--card-border);
+  border-radius: 14px;
+  padding: 18px 22px;
+  background: transparent;
+  transition: var(--t-med);
+}
+
+.faq-item:hover {
+  border-color: var(--card-border-strong);
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font);
+  font-size: var(--fs-body);
+  color: var(--text-200);
+}
+
+.faq-icon {
+  font-size: var(--fs-sub);
+  color: var(--brand-gold);
+}
